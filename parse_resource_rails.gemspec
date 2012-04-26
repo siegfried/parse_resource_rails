@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name                  = "parse_resource_rails"
-  s.version               = "0.0.1"
+  s.version               = "0.0.2"
   s.date                  = "2012-04-27"
   s.summary               = "Rails 3 generators of parse_resource"
   s.description           = ""
@@ -35,4 +35,10 @@ Gem::Specification.new do |s|
     "spec/generators/model_generator_spec.rb",
     "spec/spec_helper.rb"
   ]
+
+  s.add_dependency("parse_resource")
+  s.add_dependency("rails", ">= 3.0.0")
+
+  s.add_development_dependency("rspec")
+  s.add_development_dependency("generator_spec")
 end
