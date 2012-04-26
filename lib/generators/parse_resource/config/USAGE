@@ -1,0 +1,8 @@
+Description:
+    Generate a configuration of parse_resource
+
+Example:
+    rails generate parse_resource:config
+
+    This will create:
+        config/parse_resource.yml
